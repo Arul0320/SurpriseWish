@@ -15,7 +15,7 @@ const Index = () => {
   const [autoplayBlocked, setAutoplayBlocked] = useState(false);
 
   useEffect(() => {
-    const audio = new Audio(`${import.meta.env.BASE_URL}audio.mp3`);
+    const audio = new Audio(`${import.meta.env.BASE_URL}audiofile.mpeg`);
     audio.loop = true;
     audio.volume = 0.6;
     audioRef.current = audio;
